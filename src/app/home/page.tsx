@@ -49,8 +49,8 @@ export default function ChatPage() {
   };
 
   return (
-    <div className="min-h-screen min-w-full py-6 pt-24 flex flex-col bg-blue-50">
-      <div className="flex-grow overflow-y-auto p-4 space-y-4">
+    <div className="h-screen min-w-full py-6 pt-24 flex flex-col bg-blue-50">
+      <div className="flex-col overflow-y-scroll p-4 space-y-4 h-full">
         {messages.length === 0 && (
           <div className="text-center text-gray-500 my-8">
             <p className="mb-4">Welcome to Email AI Assistant!</p>

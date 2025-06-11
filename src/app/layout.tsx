@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Talk Email Talk!",
+  title: "Zenbox",
   description: "Better way to talk to your Emails",
 };
 
